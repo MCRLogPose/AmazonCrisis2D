@@ -2088,7 +2088,7 @@ Transform:
   m_GameObject: {fileID: 305920808}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.84, y: -3.43, z: -0.03498142}
+  m_LocalPosition: {x: 30.64, y: -3.57, z: -0.03498142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3611,7 +3611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalsInClinic: []
-  maxAnimals: 3
+  maxAnimals: 4
 --- !u!114 &596523847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4892,6 +4892,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839273658}
   m_CullTransparentMesh: 1
+--- !u!1 &847076878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 847076879}
+  m_Layer: 0
+  m_Name: SpawnPoint3
+  m_TagString: Monkey
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &847076879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847076878}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.91, y: 6.06, z: -0.03498142}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &858585970
 GameObject:
   m_ObjectHideFlags: 0
@@ -17780,6 +17811,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1900049219}
   m_CullTransparentMesh: 1
+--- !u!1 &1910015794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1910015795}
+  m_Layer: 0
+  m_Name: SpawnPoint4
+  m_TagString: Monkey
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1910015795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910015794}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.11, y: -4.95, z: -0.03498142}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1925412339
 GameObject:
   m_ObjectHideFlags: 0
@@ -18568,8 +18630,10 @@ MonoBehaviour:
   spawnPoints:
   - {fileID: 683059687}
   - {fileID: 305920809}
-  spawnInterval: 15
-  maxMonkeys: 2
+  - {fileID: 847076879}
+  - {fileID: 1910015795}
+  spawnInterval: 8
+  maxMonkeys: 4
   allDiseases:
   - {fileID: 11400000, guid: 83d02ee5cbf2d7445a8aa8320f38b439, type: 2}
   - {fileID: 11400000, guid: 3c74185914699654fbcf24b14579ec98, type: 2}
@@ -19914,18 +19978,20 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 558214346}
-  - {fileID: 1072439871}
-  - {fileID: 1925412340}
   - {fileID: 788936231}
-  - {fileID: 305920809}
-  - {fileID: 480826448}
   - {fileID: 984173888}
-  - {fileID: 141947108}
-  - {fileID: 683059687}
-  - {fileID: 2040145439}
+  - {fileID: 2112074949}
+  - {fileID: 1925412340}
   - {fileID: 1614437001}
+  - {fileID: 2040145439}
+  - {fileID: 683059687}
+  - {fileID: 305920809}
+  - {fileID: 847076879}
+  - {fileID: 1910015795}
+  - {fileID: 1072439871}
+  - {fileID: 480826448}
+  - {fileID: 806631223}
+  - {fileID: 558214346}
+  - {fileID: 141947108}
   - {fileID: 1449056177}
   - {fileID: 1406158248}
-  - {fileID: 2112074949}
-  - {fileID: 806631223}

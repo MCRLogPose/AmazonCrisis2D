@@ -7851,6 +7851,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &492701248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 492701249}
+  m_Layer: 0
+  m_Name: SpawnPoint3
+  m_TagString: Monkey
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &492701249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492701248}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 30.97, y: -3.7, z: -0.03498142}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &494199815
 GameObject:
   m_ObjectHideFlags: 0
@@ -8588,7 +8619,7 @@ Transform:
   m_GameObject: {fileID: 658970377}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15, y: -4.45, z: -0.03183506}
+  m_LocalPosition: {x: 6.1, y: -3.78, z: -0.03183506}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12044,7 +12075,7 @@ Transform:
   m_GameObject: {fileID: 1179689737}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.84, y: -3.43, z: -0.03498142}
+  m_LocalPosition: {x: 16.96, y: -4.72, z: -0.03498142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12971,8 +13002,9 @@ MonoBehaviour:
   spawnPoints:
   - {fileID: 658970378}
   - {fileID: 1179689738}
-  spawnInterval: 15
-  maxMonkeys: 2
+  - {fileID: 492701249}
+  spawnInterval: 5
+  maxMonkeys: 6
   allDiseases:
   - {fileID: 11400000, guid: 83d02ee5cbf2d7445a8aa8320f38b439, type: 2}
   - {fileID: 11400000, guid: 3c74185914699654fbcf24b14579ec98, type: 2}
@@ -15314,7 +15346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalsInClinic: []
-  maxAnimals: 3
+  maxAnimals: 5
 --- !u!61 &1948224508
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16942,18 +16974,19 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 485052162}
-  - {fileID: 1386076005}
-  - {fileID: 603299147}
-  - {fileID: 658970378}
-  - {fileID: 406507553}
-  - {fileID: 1508183963}
+  - {fileID: 1585628186}
   - {fileID: 636692285}
-  - {fileID: 2090182354}
+  - {fileID: 1386076005}
+  - {fileID: 855842878}
+  - {fileID: 603299147}
   - {fileID: 889157174}
   - {fileID: 2012535602}
-  - {fileID: 1585628186}
+  - {fileID: 1508183963}
+  - {fileID: 658970378}
   - {fileID: 1179689738}
+  - {fileID: 492701249}
+  - {fileID: 2090182354}
   - {fileID: 450313776}
+  - {fileID: 406507553}
   - {fileID: 612749194}
-  - {fileID: 855842878}
+  - {fileID: 485052162}
