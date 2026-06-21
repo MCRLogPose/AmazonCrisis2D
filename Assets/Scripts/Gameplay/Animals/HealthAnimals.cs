@@ -24,7 +24,12 @@ public class HealthAnimals : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        healthDecayPerSecond = maxHealth / timeToDie;
+
+        float difficultyMultiplier = 1f;
+        if (LevelDifficultyConfig.Instance != null)
+            difficultyMultiplier = LevelDifficultyConfig.Instance.healthDecayMultiplier;
+
+        healthDecayPerSecond = (maxHealth / timeToDie) * difficultyMultiplier;
 
         if (healthBar != null)
             healthBar.SetMaxHealth(maxHealth);

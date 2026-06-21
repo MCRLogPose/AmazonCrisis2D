@@ -42,6 +42,6 @@ public class HelpPointsManager : MonoBehaviour
 
     void UnlockNextLevel()
     {
-        Debug.Log("Siguiente nivel desbloqueado");
+        Debug.Log("[HelpPointsManager] Puntos máximos alcanzados — nivel completado.");
     }
 }

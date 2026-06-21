@@ -8,20 +8,38 @@ public class AnimalsSpawner : MonoBehaviour
     public Transform[] spawnPoints;
 
     [Header("Spawn Settings")]
+    [Tooltip("Intervalo base entre spawns. LevelDifficultyConfig puede sobrescribirlo.")]
     public float spawnInterval = 10f;
+    [Tooltip("Máximo base de monos simultáneos. LevelDifficultyConfig puede sobrescribirlo.")]
     public int maxMonkeys = 5;
 
+    private float actualSpawnInterval;
+    private int actualMaxMonkeys;
     private float timer;
     private int currentMonkeys;
 
     [Header("Disease Settings")]
     public DiseaseData[] allDiseases;
 
+    void Start()
+    {
+        if (LevelDifficultyConfig.Instance != null)
+        {
+            actualSpawnInterval = LevelDifficultyConfig.Instance.spawnInterval;
+            actualMaxMonkeys = LevelDifficultyConfig.Instance.maxMonkeys;
+        }
+        else
+        {
+            actualSpawnInterval = spawnInterval;
+            actualMaxMonkeys = maxMonkeys;
+        }
+    }
+
     void Update()
     {
         timer += Time.deltaTime;
 
-        if (timer >= spawnInterval && currentMonkeys < maxMonkeys)
+        if (timer >= actualSpawnInterval && currentMonkeys < actualMaxMonkeys)
         {
             SpawnMonkey();
             timer = 0f;
@@ -43,7 +61,7 @@ public class AnimalsSpawner : MonoBehaviour
         AnimalData animal =
             monkey.GetComponent<AnimalData>();
 
-        // Lista temporal de enfermedades v�lidas
+        // Lista temporal de enfermedades v�lidas
         List<DiseaseData> validDiseases =
             new List<DiseaseData>();
 

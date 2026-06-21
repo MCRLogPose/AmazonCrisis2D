@@ -1,6 +1,6 @@
 # Documentación de Lógica y Guía del Tutorial - AmazonCrisis2D
 
-Este documento resume la lógica de juego actual basada en los scripts del proyecto y presenta propuestas concretas para integrar el análisis de audio por FFT (emociones del jugador) con las mecánicas principales.
+Este documento resume la lógica de juego actual basada en los scripts del proyecto, detalla el sistema de multiplicadores y dificultad por nivel, y explica cómo se calculan las recompensas de Help Points y Puntos de Confianza.
 
 ---
 
@@ -61,8 +61,9 @@ graph TD
 - El jugador envía al animal capturado a la clínica (capacidad máxima: **3 animales**).
 - **Influencia del Estrés al Ingresar**:
   - Si el animal ingresa con **Estrés Bajo (< 30)**:
-    - **70% de probabilidad** de que el total de tratamientos requeridos se reduzca a **solo 1**.
-    - La recompensa en **Help Points** (Puntos de Ayuda) aumenta un **50% (1.5x)** debido a que el animal estuvo dócil y fácil de tratar.
+    - **Probabilidad configurable** (70% por defecto) de que el total de tratamientos requeridos se reduzca a **solo 1**.
+    - La recompensa en **Help Points** se multiplica por `lowStressHelpPointsMultiplier` (1.5x por defecto = 50% más).
+    - La recompensa en **Puntos de Confianza** se multiplica por `lowStressTrustPointsMultiplier` (1.5x por defecto = 50% más).
 - **Proceso de Curación**:
   - Cada enfermedad define un tiempo de espera entre tratamientos (`minutesBetweenTreatments`) y una cantidad total de tratamientos (`treatmentCount`).
   - El temporizador de curación corre en segundo plano. Cuando llega a 0, el jugador interactúa con el panel de la clínica para aplicar un tratamiento.
@@ -84,7 +85,59 @@ Para mejorar la exploración del mapa 2D y la captura de animales en ramas altas
 
 ---
 
-## 3. Integración de Emociones por FFT (Análisis de Voz) - ¡IMPLEMENTADO!
+## 3. Sistema de Multiplicadores y Dificultad por Nivel ([LevelDifficultyConfig](file:///c:/UnityProjects/AmazonCrisis2D/Assets/Scripts/Gameplay/LevelDifficultyConfig.cs))
+
+Cada nivel del juego posee un GameObject con el componente `LevelDifficultyConfig` que define los parámetros de dificultad y los multiplicadores de recompensa. Esto permite que los diseñadores ajusten la experiencia nivel por nivel desde el Inspector de Unity sin tocar código.
+
+### Cómo Funcionan los Multiplicadores
+
+Todos los multiplicadores siguen la misma lógica: **valorBase × multiplicador**. El multiplicador se configura en `LevelDifficultyConfig` y se aplica en tiempo de ejecución.
+
+| Multiplicador | Campo en Código | Defecto | Efecto |
+|---|---|---|---|
+| Velocidad de pérdida de salud | `healthDecayMultiplier` | 1.0 | 1.0 = el animal tarda 5 min en morir. 2.0 = tarda la mitad (2.5 min). |
+| Velocidad de incremento de estrés | `stressMultiplier` | 1.0 | 1.0 = ritmo normal. 2.0 = el estrés sube al doble de velocidad. |
+| Pérdida de confianza por muerte | `trustLossMultiplier` | 1.0 | 1.0 = -2 pts por muerte. 2.0 = -4 pts por muerte. |
+| Help Points por estrés bajo | `lowStressHelpPointsMultiplier` | 1.5 | 1.5 = +50% sobre la base. 2.0 = +100% (el doble). |
+| Puntos de Confianza por estrés bajo | `lowStressTrustPointsMultiplier` | 1.5 | 1.5 = +50% sobre la base. 2.0 = +100% (el doble). |
+| Probabilidad de reducir tratamientos | `lowStressTreatmentsChance` | 0.7 | Probabilidad (0.0 a 1.0) de que los tratamientos se reduzcan a 1. |
+| Umbral de estrés bajo | `lowStressThreshold` | 30 | Valor de estrés máximo para considerar "estrés bajo". |
+
+### Ejemplos de Cálculo de Recompensas
+
+Una enfermedad define valores base en `DiseaseData` (ScriptableObject). Cuando el animal ingresa a la clínica con **estrés bajo**, estos valores se multiplican:
+
+> **Ejemplo 1 — Help Points:**
+> - Base en enfermedad: `helpPointsReward = 2`
+> - Multiplicador del nivel: `lowStressHelpPointsMultiplier = 1.5`
+> - Cálculo: **2 × 1.5 = 3** → El jugador recibe 3 Help Points.
+> - Si el multiplicador fuera 2.0: **2 × 2.0 = 4** → El jugador recibe 4 Help Points.
+
+> **Ejemplo 2 — Puntos de Confianza:**
+> - Base en enfermedad: `trustPoints = 3`
+> - Multiplicador del nivel: `lowStressTrustPointsMultiplier = 1.5`
+> - Cálculo: **3 × 1.5 = 4.5 → redondeado a 5** → El jugador recibe 5 pts de confianza.
+> - Si el multiplicador fuera 2.0: **3 × 2.0 = 6** → El jugador recibe 6 pts de confianza.
+
+> **Ejemplo 3 — Sin estrés bajo (estrés normal o alto):**
+> - No se aplica ningún multiplicador. Se entregan los valores base exactos de la enfermedad.
+> - Help Points = valor base, Puntos de Confianza = valor base, tratamientos = valor base.
+
+### Factores Adicionales que Afectan la Dificultad
+
+Además de los multiplicadores, `LevelDifficultyConfig` controla por nivel:
+- **`spawnInterval`**: Tiempo entre cada aparición de animal (menor = más presión).
+- **`maxMonkeys`**: Máximo de animales simultáneos en el mapa.
+- **`stressRateOnSilence/Normal/Nervous/Panic`**: Qué tan fuerte afecta cada emoción del jugador al estrés del animal.
+
+### Diferencia entre Multiplicadores de Pérdida y Ganancia
+
+- **Pérdida** (salud, estrés, confianza por muerte): un multiplicador **mayor a 1.0** hace el juego **más difícil** (el animal muere más rápido, pierdes más confianza).
+- **Ganancia** (Help Points, Confianza por curación): un multiplicador **mayor a 1.0** hace el juego **más fácil** (mayor recompensa por curar con estrés bajo). Los diseñadores pueden reducir estos multiplicadores en niveles avanzados para aumentar la dificultad.
+
+---
+
+## 4. Integración de Emociones por FFT (Análisis de Voz) - ¡IMPLEMENTADO!
 
 El sistema de audio ([AudioAnalyzer](file:///c:/UnityProjects/AmazonCrisis2D/Assets/Scripts/AudioSystem/FFT/AudioAnalyzer.cs)) procesa el micrófono del jugador en tiempo real y detecta cuatro estados emocionales según el nivel de volumen (RMS) y la agresión espectral:
 
@@ -103,7 +156,7 @@ Cuando el jugador está en el rango de detección del animal (`IsPlayerNear` es 
 
 ---
 
-## 4. Transición de Nivel en el Tutorial ([TutorialExitTrigger](file:///c:/UnityProjects/AmazonCrisis2D/Assets/Scripts/Gameplay/TutorialExitTrigger.cs))
+## 5. Transición de Nivel en el Tutorial ([TutorialExitTrigger](file:///c:/UnityProjects/AmazonCrisis2D/Assets/Scripts/Gameplay/TutorialExitTrigger.cs))
 
 Para finalizar el tutorial de forma interactiva cuando el jugador alcance el objetivo de Help Points:
 - Un objeto de portal/salida en la escena de Tutorial permanece inactivo y oculto visualmente al inicio del nivel.
@@ -112,7 +165,7 @@ Para finalizar el tutorial de forma interactiva cuando el jugador alcance el obj
 
 ---
 
-## 5. Sistema de Selección de Niveles en el Menú
+## 6. Sistema de Selección de Niveles en el Menú
 
 El flujo de niveles del juego está conectado en el menú principal a través del [LevelManager](file:///c:/UnityProjects/AmazonCrisis2D/Assets/Scripts/Progression/LevelManager.cs) y [MenuEvents](file:///c:/UnityProjects/AmazonCrisis2D/Assets/Scripts/Core/MenuEvents.cs).
 
@@ -131,7 +184,7 @@ Para pruebas y desarrollo rápido, se ha modificado el sistema para desactivar e
 
 ---
 
-## 6. Guía para Diseñar el Tutorial Interactivo
+## 7. Guía para Diseñar el Tutorial Interactivo
 
 Para enseñar esta lógica al jugador, proponemos estructurar el tutorial en los siguientes pasos narrados por el Doctor Mori:
 

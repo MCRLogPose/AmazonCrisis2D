@@ -56,7 +56,11 @@ public class AnimalStress : MonoBehaviour
 
     private void Update()
     {
-        float stressChange = stressIncreaseRate;
+        float difficultyMultiplier = 1f;
+        if (LevelDifficultyConfig.Instance != null)
+            difficultyMultiplier = LevelDifficultyConfig.Instance.stressMultiplier;
+
+        float stressChange = stressIncreaseRate * difficultyMultiplier;
 
         // Si el jugador está cerca, el micrófono influye en el estrés
         if (brain != null && brain.sensor != null && brain.sensor.IsPlayerNear())
@@ -68,23 +72,32 @@ public class AnimalStress : MonoBehaviour
 
             if (audioAnalyzer != null && audioAnalyzer.IsRecording)
             {
+                float rateNormal = -6f;
+                float rateSilence = stressIncreaseRate;
+                float rateNervous = 8f;
+                float ratePanic = 10f;
+
+                if (LevelDifficultyConfig.Instance != null)
+                {
+                    rateSilence = LevelDifficultyConfig.Instance.stressRateOnSilence;
+                    rateNormal = LevelDifficultyConfig.Instance.stressRateOnNormal;
+                    rateNervous = LevelDifficultyConfig.Instance.stressRateOnNervous;
+                    ratePanic = LevelDifficultyConfig.Instance.stressRateOnPanic;
+                }
+
                 switch (audioAnalyzer.CurrentEmotionState)
                 {
                     case PlayerEmotionState.NORMAL:
-                        // Tono suave disminuye el estrés activamente
-                        stressChange = -6f;
+                        stressChange = rateNormal;
                         break;
                     case PlayerEmotionState.SILENCE:
-                        // Silencio mantiene el incremento natural
-                        stressChange = stressIncreaseRate;
+                        stressChange = rateSilence;
                         break;
                     case PlayerEmotionState.NERVOUS:
-                        // Nervioso acelera el estrés
-                        stressChange = 8f;
+                        stressChange = rateNervous;
                         break;
                     case PlayerEmotionState.PANIC:
-                        // Pánico dispara el estrés rápidamente
-                        stressChange = 10f;
+                        stressChange = ratePanic;
                         break;
                 }
             }

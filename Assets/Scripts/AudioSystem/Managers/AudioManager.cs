@@ -11,17 +11,26 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
-        // Singleton
         if (Instance == null)
         {
             Instance = this;
-
             DontDestroyOnLoad(gameObject);
+            EnsureAudioSources();
         }
         else
         {
             Destroy(gameObject);
         }
+    }
+
+    private void EnsureAudioSources()
+    {
+        if (musicSource == null || musicSource.gameObject == null)
+            musicSource = gameObject.AddComponent<AudioSource>();
+        if (sfxSource == null || sfxSource.gameObject == null)
+            sfxSource = gameObject.AddComponent<AudioSource>();
+        if (ambientSource == null || ambientSource.gameObject == null)
+            ambientSource = gameObject.AddComponent<AudioSource>();
     }
 
     // =========================

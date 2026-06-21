@@ -47,29 +47,38 @@ public class AnimalPanelUI : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Devuelve el texto descriptivo de la probabilidad de reduccion de tratamientos segun el estres.
-    /// </summary>
     private string GetProbabilityText(float stressLevel)
     {
         if (stressLevel < 0f)
         {
-            // No se pudo obtener el nivel de estres
             return "Probabilidad: --";
         }
-        else if (stressLevel < 30f)
+
+        float lowThreshold = 30f;
+        float treatmentsChance = 0.7f;
+        float helpPointsMultiplier = 1.5f;
+        float trustPointsMultiplier = 1.5f;
+
+        if (LevelDifficultyConfig.Instance != null)
         {
-            // Estres bajo: alta probabilidad de reduccion y bonus de puntos
-            return "Probabilidad: 70% (1 tratamiento) +50% Help pts";
+            lowThreshold = LevelDifficultyConfig.Instance.lowStressThreshold;
+            treatmentsChance = LevelDifficultyConfig.Instance.lowStressTreatmentsChance;
+            helpPointsMultiplier = LevelDifficultyConfig.Instance.lowStressHelpPointsMultiplier;
+            trustPointsMultiplier = LevelDifficultyConfig.Instance.lowStressTrustPointsMultiplier;
+        }
+
+        if (stressLevel < lowThreshold)
+        {
+            int hpBonusPercent = Mathf.RoundToInt((helpPointsMultiplier - 1f) * 100f);
+            int tpBonusPercent = Mathf.RoundToInt((trustPointsMultiplier - 1f) * 100f);
+            return $"Probabilidad: {treatmentsChance * 100f:F0}% (1 tratamiento) +{hpBonusPercent}% Help pts +{tpBonusPercent}% Confianza";
         }
         else if (stressLevel >= 70f)
         {
-            // Estres alto: comportamiento agresivo, sin bonos
             return "Probabilidad: 0% (Muy estresado)";
         }
         else
         {
-            // Rango medio: sin modificaciones
             return "Probabilidad: Normal";
         }
     }

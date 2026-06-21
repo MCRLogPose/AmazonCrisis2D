@@ -14,6 +14,7 @@ public class TrustManager : MonoBehaviour
     public float currentTrust;
 
     [Header("Penalización")]
+    [Tooltip("Pérdida base de confianza por mono muerto. LevelDifficultyConfig puede multiplicarlo.")]
     public float trustLossPerMonkey = 2f;
 
     private GameOverManager gameOverManager;
@@ -44,7 +45,12 @@ public class TrustManager : MonoBehaviour
     // Llamar cuando muere un mono
     public void LoseTrust()
     {
-        currentTrust -= trustLossPerMonkey;
+        float multiplier = 1f;
+        if (LevelDifficultyConfig.Instance != null)
+            multiplier = LevelDifficultyConfig.Instance.trustLossMultiplier;
+
+        float actualLoss = trustLossPerMonkey * multiplier;
+        currentTrust -= actualLoss;
 
         currentTrust = Mathf.Clamp(currentTrust, 0, maxTrust);
 

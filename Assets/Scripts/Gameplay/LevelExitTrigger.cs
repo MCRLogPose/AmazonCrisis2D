@@ -2,28 +2,30 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class TutorialExitTrigger : MonoBehaviour
+public class LevelExitTrigger : MonoBehaviour
 {
     [Header("Visual Settings")]
-    [Tooltip("El renderer visual (SpriteRenderer, MeshRenderer, etc.) que se activará al alcanzar los help points requeridos.")]
     [SerializeField] private Renderer visualRenderer;
-
-    [Tooltip("El colisionador que se activará al alcanzar los help points requeridos.")]
     [SerializeField] private Collider2D portalCollider;
+
+    [Header("Level Progression")]
+    [Tooltip("Nombre de la escena del siguiente nivel. Vacío si es el nivel final.")]
+    [SerializeField] private string nextSceneName;
+    [Tooltip("Índice del nivel actual (0=Tutorial, 1=Level1, 2=Level2, 3=Level3, 4=Final). Se usa para marcar como completado.")]
+    [SerializeField] private int levelIndex;
+    [Tooltip("Si es el nivel final, muestra el panel de cierre en vez de cargar otra escena.")]
+    [SerializeField] private bool isFinalLevel;
 
     [Header("Help Points Requeridos")]
     [Tooltip("Puntos de Help Point necesarios para que el portal sea visible. 0 = visible desde el inicio (útil para testing).")]
     [SerializeField] private int helpPointsRequired = 100;
 
-    [Header("Interaction Settings")]
-    [Tooltip("Nombre de la escena del siguiente nivel.")]
-    [SerializeField] private string nextSceneName = "Level1";
-
-    [Tooltip("Botón o prompt visual de interactuar en pantalla (opcional). Se recomienda un botón UI para soporte táctil.")]
+    [Header("Interaction")]
+    [Tooltip("Botón/prompt visual que aparece al colisionar con el portal. Se recomienda un botón UI para soporte táctil.")]
     [SerializeField] private GameObject interactPrompt;
 
-    private bool isPlayerNearby = false;
-    private bool isActivated = false;
+    private bool isPlayerNearby;
+    private bool isActivated;
 
     private void Start()
     {
@@ -55,7 +57,7 @@ public class TutorialExitTrigger : MonoBehaviour
         if (btn != null)
         {
             btn.onClick.RemoveAllListeners();
-            btn.onClick.AddListener(LoadNextLevel);
+            btn.onClick.AddListener(ExitLevel);
         }
     }
 
@@ -68,16 +70,13 @@ public class TutorialExitTrigger : MonoBehaviour
         }
 
         if (isActivated && isPlayerNearby && Input.GetKeyDown(KeyCode.E))
-        {
-            LoadNextLevel();
-        }
+            ExitLevel();
     }
 
     private void ActivatePortal()
     {
         isActivated = true;
         SetPortalState(true);
-        Debug.Log("[TutorialExit] ¡Portal activado! El jugador puede avanzar de nivel interactuando con él.");
     }
 
     private void SetPortalState(bool active)
@@ -88,10 +87,22 @@ public class TutorialExitTrigger : MonoBehaviour
             portalCollider.enabled = active;
     }
 
-    public void LoadNextLevel()
+    public void ExitLevel()
     {
-        Debug.Log("[TutorialExit] Cargando el siguiente nivel: " + nextSceneName);
-        SceneManager.LoadScene(nextSceneName);
+        if (isFinalLevel)
+        {
+            GameEndingManager ending = FindObjectOfType<GameEndingManager>();
+            if (ending != null)
+            {
+                LevelManager.Instance?.CompleteLevel(levelIndex);
+                ending.ShowEnding();
+            }
+        }
+        else
+        {
+            LevelManager.Instance?.CompleteLevel(levelIndex);
+            SceneManager.LoadScene(nextSceneName);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -99,7 +110,8 @@ public class TutorialExitTrigger : MonoBehaviour
         if (isActivated && collision.CompareTag("Doctor_Mori"))
         {
             isPlayerNearby = true;
-            interactPrompt?.SetActive(true);
+            if (interactPrompt != null)
+                interactPrompt.SetActive(true);
         }
     }
 
@@ -108,7 +120,8 @@ public class TutorialExitTrigger : MonoBehaviour
         if (collision.CompareTag("Doctor_Mori"))
         {
             isPlayerNearby = false;
-            interactPrompt?.SetActive(false);
+            if (interactPrompt != null)
+                interactPrompt.SetActive(false);
         }
     }
 }
