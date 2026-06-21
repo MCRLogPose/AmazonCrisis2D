@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class DoctorMovement : MonoBehaviour
 {
@@ -34,18 +35,43 @@ public class DoctorMovement : MonoBehaviour
     private void Awake()
     {
         controls = new PlayerControls();
+    }
+
+    private void OnEnable()
+    {
         controls.Enable();
+        controls.Land.Walk.performed += OnWalkPerformed;
+        controls.Land.Walk.canceled += OnWalkCanceled;
+        controls.Land.Jump.started += OnJumpStarted;
+    }
 
-        controls.Land.Walk.performed += ctx => horizontalInput = ctx.ReadValue<float>();
-        controls.Land.Walk.canceled += ctx => horizontalInput = 0.0f;
+    private void OnDisable()
+    {
+        controls.Land.Walk.performed -= OnWalkPerformed;
+        controls.Land.Walk.canceled -= OnWalkCanceled;
+        controls.Land.Jump.started -= OnJumpStarted;
+        controls.Disable();
+    }
 
-        // Saltará al presionar el botón de salto (admite doble salto en el aire)
-        controls.Land.Jump.started += ctx =>
-        {
-            if (ctx.ReadValue<float>() > 0)
-                TryJump();
-        };
-        controls.Land.Jump.canceled += ctx => { };
+    private void OnDestroy()
+    {
+        controls.Dispose();
+    }
+
+    private void OnWalkPerformed(InputAction.CallbackContext ctx)
+    {
+        horizontalInput = ctx.ReadValue<float>();
+    }
+
+    private void OnWalkCanceled(InputAction.CallbackContext ctx)
+    {
+        horizontalInput = 0.0f;
+    }
+
+    private void OnJumpStarted(InputAction.CallbackContext ctx)
+    {
+        if (ctx.ReadValue<float>() > 0)
+            TryJump();
     }
 
     void Start()
@@ -82,7 +108,7 @@ public class DoctorMovement : MonoBehaviour
         // Raycast correcto
         Debug.DrawRay(transform.position, Vector3.down * 1.6f, Color.red);
         isGrounded = Physics2D.Raycast(transform.position, Vector3.down, 1.6f);
-        if (isGrounded && rigidbody2D.velocity.y <= 0.01f)
+        if (isGrounded && rigidbody2D != null && rigidbody2D.velocity.y <= 0.01f)
         {
             remainingJumps = maxJumps;
         }
@@ -109,14 +135,15 @@ public class DoctorMovement : MonoBehaviour
     }
     private void TryJump()
     {
+        if (rigidbody2D == null) return;
+
         if (!isGrounded && remainingJumps == maxJumps)
         {
-            remainingJumps = maxJumps - 1; // Pierde el primer salto si se cayó de un borde sin saltar
+            remainingJumps = maxJumps - 1;
         }
 
         if (remainingJumps > 0)
         {
-            // Cancelar velocidad vertical previa para que el segundo salto se sienta limpio y con fuerza constante
             rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, 0f);
             rigidbody2D.AddForce(Vector2.up * jumpForce);
             remainingJumps--;
@@ -125,6 +152,7 @@ public class DoctorMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (rigidbody2D == null) return;
         rigidbody2D.velocity = new Vector2(horizontalInput * speed, rigidbody2D.velocity.y);
     }
 
