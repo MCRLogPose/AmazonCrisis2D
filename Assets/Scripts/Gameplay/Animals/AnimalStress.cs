@@ -52,14 +52,58 @@ public class AnimalStress : MonoBehaviour
         }
     }
 
+    private AudioAnalyzer audioAnalyzer;
+
     private void Update()
     {
-        // Aumentar estrés con el tiempo (tendencia natural)
-        IncreaseStress(stressIncreaseRate * Time.deltaTime);
+        float stressChange = stressIncreaseRate;
+
+        // Si el jugador está cerca, el micrófono influye en el estrés
+        if (brain != null && brain.sensor != null && brain.sensor.IsPlayerNear())
+        {
+            if (audioAnalyzer == null)
+            {
+                audioAnalyzer = FindObjectOfType<AudioAnalyzer>();
+            }
+
+            if (audioAnalyzer != null && audioAnalyzer.IsRecording)
+            {
+                switch (audioAnalyzer.CurrentEmotionState)
+                {
+                    case PlayerEmotionState.NORMAL:
+                        // Tono suave disminuye el estrés activamente
+                        stressChange = -6f;
+                        break;
+                    case PlayerEmotionState.SILENCE:
+                        // Silencio mantiene el incremento natural
+                        stressChange = stressIncreaseRate;
+                        break;
+                    case PlayerEmotionState.NERVOUS:
+                        // Nervioso acelera el estrés
+                        stressChange = 8f;
+                        break;
+                    case PlayerEmotionState.PANIC:
+                        // Pánico dispara el estrés rápidamente
+                        stressChange = 10f;
+                        break;
+                }
+            }
+        }
+
+        // Aplicar el cambio de estrés correspondiente
+        if (stressChange > 0)
+        {
+            IncreaseStress(stressChange * Time.deltaTime);
+        }
+        else if (stressChange < 0)
+        {
+            DecreaseStress(Mathf.Abs(stressChange) * Time.deltaTime);
+        }
 
         // Aplicar los efectos según el nivel de estrés
         ApplyStressEffects();
     }
+
 
     /// <summary>
     /// Incrementa el estrés en un monto específico.

@@ -8,6 +8,10 @@ public class DoctorMovement : MonoBehaviour
     public float speed;
     PlayerControls controls;
 
+    [Header("Double Jump Settings")]
+    [SerializeField] private int maxJumps = 2;
+    private int remainingJumps;
+
     [Header("Audio Settings")]
     [Tooltip("Si está activo, los pasos sonarán automáticamente basados en tiempo. Desactívalo si prefieres usar Animation Events.")]
     [SerializeField] private bool useTimerBasedFootsteps = true;
@@ -35,11 +39,11 @@ public class DoctorMovement : MonoBehaviour
         controls.Land.Walk.performed += ctx => horizontalInput = ctx.ReadValue<float>();
         controls.Land.Walk.canceled += ctx => horizontalInput = 0.0f;
 
-        //saltara solo si se presiona upArrow o w, y solo si el personaje esta tocando el suelo. osea si tiene numero 1 positivo
+        // Saltará al presionar el botón de salto (admite doble salto en el aire)
         controls.Land.Jump.started += ctx =>
         {
-            if (isGrounded && (ctx.ReadValue<float>() > 0))
-                Jump();
+            if (ctx.ReadValue<float>() > 0)
+                TryJump();
         };
         controls.Land.Jump.canceled += ctx => { };
     }
@@ -78,6 +82,10 @@ public class DoctorMovement : MonoBehaviour
         // Raycast correcto
         Debug.DrawRay(transform.position, Vector3.down * 1.6f, Color.red);
         isGrounded = Physics2D.Raycast(transform.position, Vector3.down, 1.6f);
+        if (isGrounded && rigidbody2D.velocity.y <= 0.01f)
+        {
+            remainingJumps = maxJumps;
+        }
 
         // Lógica de reproducción de pasos basada en tiempo
         if (useTimerBasedFootsteps)
@@ -99,9 +107,20 @@ public class DoctorMovement : MonoBehaviour
             }
         }
     }
-    private void Jump()
+    private void TryJump()
     {
-        rigidbody2D.AddForce(Vector2.up * jumpForce);
+        if (!isGrounded && remainingJumps == maxJumps)
+        {
+            remainingJumps = maxJumps - 1; // Pierde el primer salto si se cayó de un borde sin saltar
+        }
+
+        if (remainingJumps > 0)
+        {
+            // Cancelar velocidad vertical previa para que el segundo salto se sienta limpio y con fuerza constante
+            rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, 0f);
+            rigidbody2D.AddForce(Vector2.up * jumpForce);
+            remainingJumps--;
+        }
     }
 
     private void FixedUpdate()

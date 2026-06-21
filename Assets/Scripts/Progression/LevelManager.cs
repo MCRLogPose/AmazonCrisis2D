@@ -38,7 +38,7 @@ public class LevelManager : MonoBehaviour
 
             level.levelNumber = i + 1;
 
-            level.unlocked = (i == 0);
+            level.unlocked = true; // Desbloqueado por defecto para acceso directo temporal
 
             level.completed = false;
 
