@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: 315269c1f84846a49b52faa27e4782f5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 455
+        width: 37
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206f9742c40874a439a26a49ff40c72f
+      internalID: -1721429738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 456
+        width: 36
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8819c56f22d733f408e2d61cc3a214a6
+      internalID: 1661812710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 458
+        width: 40
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf1acec2e28b8f4899bea8168ba4378
+      internalID: 1027176925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_3
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 458
+        width: 37
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1aed8e82ff18143a13b6ecbbe528d1
+      internalID: -1555291115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_4
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 456
+        width: 37
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9d1cbfea82c4f4497044ad75fc4ebc
+      internalID: 692607732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 310
+        width: 37
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b60d0be5ca6f054da53e1adc00264ed
+      internalID: 986675424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 311
+        width: 36
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29129bd8994659545ae1c8bbb7b49d19
+      internalID: 1910906545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 311
+        width: 37
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8436d2c69c0abc0489ce8ee64cc0aba7
+      internalID: 1548402485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_8
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 312
+        width: 37
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c20094a9f64a44897c4df62edfb6ff
+      internalID: -2137838880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_9
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 312
+        width: 40
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cba58afb686184b81aaa1cbb91ab09
+      internalID: 181234905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 168
+        width: 51
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a7e76a57d467149bd082dccfa0359f
+      internalID: -588367648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 168
+        width: 53
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286d59ed1bbd07546941225b5518fa0a
+      internalID: 716286768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_12
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 167
+        width: 53
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9a3a56e3d48974da56f4f1eccca028
+      internalID: 1542327668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 167
+        width: 53
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b395acf6a6cd4489ac54ec0e696ea5
+      internalID: 375091761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 167
+        width: 53
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bdd7b50a3fe9b42afc9512d72a5a05
+      internalID: -168860606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 28
+        width: 51
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d411e4e99575aa942baeed678aef3fdf
+      internalID: -2012514958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 28
+        width: 49
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c15d5b4eba7d5459a5c8a91da999b3
+      internalID: 1126517688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 28
+        width: 49
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1944c1bf718ab34ab6550805aa03771
+      internalID: -191926921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_18
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 28
+        width: 49
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3907c111c53477d48a2d64c1d559f9c4
+      internalID: -446122746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_Walk_TOPDOWN_19
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 28
+        width: 49
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a819a2ab5f9e648984748f696aeb83
+      internalID: 1890185927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Doctor_Walk_TOPDOWN_0: -1721429738
+      Doctor_Walk_TOPDOWN_1: 1661812710
+      Doctor_Walk_TOPDOWN_10: -588367648
+      Doctor_Walk_TOPDOWN_11: 716286768
+      Doctor_Walk_TOPDOWN_12: 1542327668
+      Doctor_Walk_TOPDOWN_13: 375091761
+      Doctor_Walk_TOPDOWN_14: -168860606
+      Doctor_Walk_TOPDOWN_15: -2012514958
+      Doctor_Walk_TOPDOWN_16: 1126517688
+      Doctor_Walk_TOPDOWN_17: -191926921
+      Doctor_Walk_TOPDOWN_18: -446122746
+      Doctor_Walk_TOPDOWN_19: 1890185927
+      Doctor_Walk_TOPDOWN_2: 1027176925
+      Doctor_Walk_TOPDOWN_3: -1555291115
+      Doctor_Walk_TOPDOWN_4: 692607732
+      Doctor_Walk_TOPDOWN_5: 986675424
+      Doctor_Walk_TOPDOWN_6: 1910906545
+      Doctor_Walk_TOPDOWN_7: 1548402485
+      Doctor_Walk_TOPDOWN_8: -2137838880
+      Doctor_Walk_TOPDOWN_9: 181234905
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

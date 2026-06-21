@@ -1,0 +1,3337 @@
+fileFormatVersion: 2
+guid: ea5f0b92a81f58b48af6ee0bb8362fda
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_0
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 275
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cb8b8abcaaec845b4f12852ab39146
+      internalID: 637437388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 299
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635e9a759044a8746a657c881aed57c8
+      internalID: 754236584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 301
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5e3408fdebe624d8b292e1046a2fd5
+      internalID: 2143795906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 298
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10f724326a42e046a3cf25dffb5d5e2
+      internalID: 1094746528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 298
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc083abd5ee4da408102ec19b886a57
+      internalID: 141814137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 298
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03fdab578301c9418b0c469ec8c71a0
+      internalID: -361998072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 298
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af03a08430ffdf84793370adb3ea55df
+      internalID: 1979534809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_9
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 299
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f07d25ba934f6f4e92e5995ed38d416
+      internalID: -193425863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 253
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2512df1731f5b6a48bfe3fae6cfa391c
+      internalID: -287983233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 298
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f04056d942b762439e158b28673e48d
+      internalID: -1215432349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_12
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 277
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093a3fdab286aa2449b9cd5d60c414b2
+      internalID: -1342117463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_21
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 274
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2ef58200d5a9b43b7349d187bb4251
+      internalID: -1243171041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_23
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 275
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c65710f57e0b664e9aca3b4478d4c00
+      internalID: 942775427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_33
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 251
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5a1ba2717e67d4cb405992a6a495a7
+      internalID: 1379308134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_34
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 247
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74acc56a38c559429102ef3978a3d06
+      internalID: -238951934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_44
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 227
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f99cdc10b8207b4d91bfa7ea0bcf4f4
+      internalID: -1090357403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_45
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 227
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd1acf5e704aed41ad77e7065da88ec
+      internalID: -314846503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_48
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 229
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10357e2e0bab6a247b6329f251f34fa3
+      internalID: -621084093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_49
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 226
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf90accbfdde8d448a7ce8ca9f3632b
+      internalID: -482898524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_50
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 251
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78ba984e2d0847459f7b3478bfc5730
+      internalID: -221306467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_52
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 194
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94d71d1644e62a4387cc25d8094b3ad
+      internalID: 1089925925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_53
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 194
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ae7c6604db30f489aadf740d7f1ffe
+      internalID: 1050643495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_54
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 194
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce742d0fc7395e147b1fdc618c1f9dd5
+      internalID: -1428658045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 194
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35be29038d2667a4da04e16fe6d62c8c
+      internalID: 2055209048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_56
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 195
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2ccc17309037e4795e120e63a3f716
+      internalID: 1971225639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_57
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 195
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f744e63492fb341b07f9c3f8f83f20
+      internalID: -74796103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_58
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 195
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c35185173fffdf40b2346f5fd2664f2
+      internalID: -740482272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_59
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 195
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11d47826212de844ad3f59df6811dea
+      internalID: -571491100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_60
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 196
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781cba832b0a0484593d5c180dfb2be7
+      internalID: 1954736656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_61
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 195
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d243e2cf55e402c4e955eda94a81cf9f
+      internalID: 77499758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_62
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 194
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ade16871487c82479d154300a76e0da
+      internalID: 544543044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_63
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 195
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c594c9bc7c088489f115a1b6c24baf
+      internalID: -1057068137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_69
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 171
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f9d34a46f88f3418e71a7a9a19cc53
+      internalID: -581683471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_70
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 171
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4812ccbb103754d4fb22fc37c66078c1
+      internalID: -2018251814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_71
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 171
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8876eb025bc7c88498eb9d8d378becc0
+      internalID: -198680701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_72
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 171
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aaa84bc8fb16041980d5fd84de9942
+      internalID: -948844819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_73
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 172
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7462bb41848ca9d4cb544365d11c60d6
+      internalID: -1628954862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_74
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 171
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea91b8cfb99eefb40a0d7aa33e32f83b
+      internalID: -1424030122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_75
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 170
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f46e8b5496c8240a37c56792cf4d2b
+      internalID: 935810089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_76
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 171
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d4b5bad23b9e0429494375ce28bb1d
+      internalID: -1245527337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_81
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 145
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5748f5014406ede44b47a869d82af9a8
+      internalID: -701872180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_82
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 146
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e9094f823a2a24f9eee2197e122e49
+      internalID: 262956033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_83
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 145
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3788b917f316ceb45a781cfde0330bfb
+      internalID: -829220473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_84
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 146
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2af796d1a9e3e04997fa91e73ddebe0
+      internalID: 617203031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_85
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 145
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4295dd9a46d4145bc02ef36beb82a3
+      internalID: 1808771081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_86
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 144
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901683546910cff4cbf8bedcf320115b
+      internalID: -1607023552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_87
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 146
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1938fbb887becc84daea978a7b5d0284
+      internalID: 1047565163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_88
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 144
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0b4e2de8eab104abd6148566004570
+      internalID: -693014010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_93
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 121
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e844b1693f4654a94337ada2812476
+      internalID: -516305829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_94
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 122
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6ea16943f6bb3449dfd501a2810958
+      internalID: -529643868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_95
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 121
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799a7bf12c3b1ed4e9b637332d166c91
+      internalID: 1762324765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_96
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 121
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0db260ed68cff439123bfc83f1e3e3
+      internalID: -860038972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_97
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 122
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf250e4c15403e4d97a508545ea9de3
+      internalID: -1381455682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_98
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 122
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29650817257b4234ba692c5181687bb8
+      internalID: 1896430415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_99
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 122
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61d5c02478d09b4298d68550dda5967
+      internalID: -900683105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_100
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 122
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424349c20f182f448b5bbac55e927288
+      internalID: 1313725081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_101
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 85
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b57a0cff0caa9479dcd0c3bbf05d06
+      internalID: -584685127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_102
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 85
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79768ab3da4f7e74d880b2f054ea975c
+      internalID: -968567390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_103
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 85
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcec419d0813774cb39f5fa9f950a98
+      internalID: 224654411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_104
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 85
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ade38ac094b6a74997c90d5ae14cfe5
+      internalID: -165998318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_105
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 85
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa306ba908f9445438bf2ae3b238d00e
+      internalID: 1156972959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_106
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 84
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c0704b8e4fa41408b84b7c1c7adef5
+      internalID: 1665395623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_107
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 85
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13262baa4bf38974883f398dd4b41e9d
+      internalID: -1184334252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_108
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 85
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e8ac8d612662546ba673508e05964f
+      internalID: 589098312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_109
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8874e5a57dce99d4ca0f85e4b5f2ca1f
+      internalID: -1900766904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_110
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 86
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4c8ae9b5962a04b9c949bc9d388e85
+      internalID: -1083625139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_111
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078f4946fc30b1844a0d65bd77e6840f
+      internalID: 1994608284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_112
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 86
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d92004993b670419983e2eaadd3731
+      internalID: -1147825227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_113
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 87
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe047259937e7884c8bd386c42fef583
+      internalID: -1328461086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_114
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 87
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a62503ad3e9e0468741f71f47fa121
+      internalID: -680249231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_115
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 87
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb65a8b809f6174aa82e41d87f77428
+      internalID: -184332030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_116
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 87
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8a1fe2b5761a046b5268051acb51c0
+      internalID: -872966980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_117
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 61
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc469942f66ec984f9c7ab028849259a
+      internalID: -288792389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_118
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 61
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4c581328354104a8f672f1ccb2956d
+      internalID: 1292347306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_119
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 61
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5b6c5af9a58bb4ead3c9898970156d
+      internalID: -913944529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_120
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 61
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4e2eeb783738642834f183d9b739c9
+      internalID: 1452133161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_121
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 61
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e202547c0b4742c4ba255073003833ca
+      internalID: 526942145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_122
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 60
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075ca59bc130c7a44b134ff6b0895844
+      internalID: 944053859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_123
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 61
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81128362a799c1648afa5aea27d8e655
+      internalID: 1555678264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_124
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 61
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f7ecbe1caf68f4195e4661a28f9c41
+      internalID: 354824337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_125
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 62
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e3b3b478c72b0438f4f04f44ab1bfe
+      internalID: 1732361740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_126
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 62
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b27285098dd444da4f5b90390ea11e
+      internalID: 2125606603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_127
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 62
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030b1d68f22042e47bc9d9119b24c976
+      internalID: 141045293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_128
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 62
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ff4c19248ca3241a7813eca1362398
+      internalID: 303861820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_129
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 63
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec08cad42608d2a45bd5dd546dabf4c3
+      internalID: -1802539093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_130
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 63
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1a41f768d522545baf7530c86adaf9
+      internalID: 1236152938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_131
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 63
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e541d3d03704ee479eb8f162c2993c3
+      internalID: -1225073024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_132
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 63
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4fb5435e4d60d4cb645b8de5711063
+      internalID: -1849545492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_133
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 35
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd8e8e87962361439a38a8d40a511da
+      internalID: -1898356763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_134
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 36
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62284b9f3e23c949a5bbb78b20fc083
+      internalID: 808657019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_135
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 35
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60312ec70f472f4fb7dea78a13937b9
+      internalID: 1532329498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_136
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 36
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7704e2e371d5fa5429501fb9b10e46dd
+      internalID: -1097478531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_137
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 36
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf3941bb8ec7d949987b56dac4dc719
+      internalID: -767304313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_138
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 35
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdf7d8ecd8a4d349b269214cbca023c
+      internalID: 1817266262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_139
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 36
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253b19e81d2f99545adac42906160f09
+      internalID: -1635945550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_140
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 35
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefa538db6f84c645991960b11184bcc
+      internalID: -1978194063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_141
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 37
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2f6fb8f6e334549bc90d3a1f08067e
+      internalID: -1049278019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_142
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 38
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df933676e130004e855c33c4729f022
+      internalID: -902770167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_143
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 37
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee76cf67fd5507f46b2b4c1d38c7ef43
+      internalID: 1629087268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_144
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 38
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17afc2422b876249b419e63c11d1604
+      internalID: 376512380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_145
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 36
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcf788fed31bb6488c0f0063b964cc4
+      internalID: 1256168976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_146
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 35
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74dd4b035a936a4094d60ea7fcc37b0
+      internalID: -1767882662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_147
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 36
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b597d495ddc774f9ec4df44ff1465b
+      internalID: -875459596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_148
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 35
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614cc94c13887204b845df5be821b43f
+      internalID: -1109990970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_149
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 11
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7794eb484942a47811e7601872a955
+      internalID: 1963617037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_150
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 12
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb4484544bece045963058ecb70f4e7
+      internalID: -1706807918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_151
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 11
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4cb11d72361c64daa78e45c7095caf
+      internalID: -2146197003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_152
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 12
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22e70da3628d9c4ea1037ec296f1cc4
+      internalID: 790353092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_153
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 13
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e236148edaa2c40a95b66d5af4d2b8
+      internalID: 1929170459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_154
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 12
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7473c4253776914b8493d468810cc86
+      internalID: -1756622716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_155
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 13
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99590bbaf1e3fc448a13eea30b2c7bf
+      internalID: -1760511842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_156
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 12
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888d40b00a99cef43a7e72ab01bffeaa
+      internalID: 1908253983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_157
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 13
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed899051b40cf949a2a286581627f43
+      internalID: 735085982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_158
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 14
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c9a62fa78cc9346b23a0940f7c3148
+      internalID: 975967579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_159
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 13
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2edbaf16cb0f54e9667936a5c4b94a
+      internalID: -694628265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_160
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 14
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39dc516fb0829a54e8b94e870194ba81
+      internalID: 1938963018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_161
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 10
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5297a11634f0364c96fc9617dc5366d
+      internalID: -1717331935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_162
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 6
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f71258eb4c876041b87cb65c2665026
+      internalID: -1890605086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_163
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 10
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4caa2a750b5f2d449e5a7a37bf630ed
+      internalID: -316392972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_164
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 9
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0f777eb9c2ba24da06a6429913af6f
+      internalID: -2093418308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_17
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 273
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6365290bf474f484f9137a45e758a9e5
+      internalID: -1308062780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_18
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 274
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff46b1b6a72a39d4a9b2f5da80e332cc
+      internalID: -2052887765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 274
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc5b2a067407f04f803242271244799
+      internalID: 1971780924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_20
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 274
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c60c61f9d3f7bf4c9316ea64485a4ab
+      internalID: -1964912260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_29
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 249
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00231c5cd0c501b4799fc2501d923e18
+      internalID: -1063510921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_30
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 250
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa0a9cfc3aeb7e41b0630cfec18d0c7
+      internalID: -155394518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_31
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 249
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee30a76d879da9e4aba1c8db7d98d65b
+      internalID: 799622379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 250
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dc13a40061fc64485078b8e58a693b
+      internalID: -1114933359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_39
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 258
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7892755aafb7f6744a6390eb78281e63
+      internalID: 2035909490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 225
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f168b274814a98c4ba14b6cf60320105
+      internalID: -894936238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_41
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 226
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1524890218dcf43b94344d7863ea35
+      internalID: -53308503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_42
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 225
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8230e888d9fde428a0583b69f45749
+      internalID: -884036459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 226
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784e4a87c505c4b499a843f4b09b504b
+      internalID: -1970841007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_65
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 170
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771223e77b481654b97677931ae21b1c
+      internalID: 974069130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_66
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 170
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622838060df0b9344ad7618b571bc196
+      internalID: -2028809489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_67
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 170
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1ffbb7d59e4a44a95191cc85008174
+      internalID: 1138952316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_68
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 170
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344b2558b4c55f84896b3b59b0ad8ba0
+      internalID: 1858290911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_77
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 144
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc961bab76918744da94630d9c3289b9
+      internalID: -2037028308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_78
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 145
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec04f40f76a84141ba9296171dcf359
+      internalID: -1960090049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_79
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 144
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d0818d9cf727842a695d86f538f250
+      internalID: 705748953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_80
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 145
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651bdd16281cb0e429c587e78f4e630f
+      internalID: -1169137058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_89
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 119
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796024a3e9dd913408d7c9e101097288
+      internalID: 238104557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_90
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 121
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c6feeba34ba4943958e5ce1e33aa74
+      internalID: 1079582465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_91
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 119
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a60b6ae9fe4aa468e234d19a0e5d50
+      internalID: -1561908652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_92
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 121
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43db1041c6527e945829779df6c1743e
+      internalID: 1262325798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_0: 637437388
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_1: 754236584
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_10: -287983233
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_100: 1313725081
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_101: -584685127
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_102: -968567390
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_103: 224654411
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_104: -165998318
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_105: 1156972959
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_106: 1665395623
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_107: -1184334252
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_108: 589098312
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_109: -1900766904
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_11: -1215432349
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_110: -1083625139
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_111: 1994608284
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_112: -1147825227
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_113: -1328461086
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_114: -680249231
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_115: -184332030
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_116: -872966980
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_117: -288792389
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_118: 1292347306
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_119: -913944529
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_12: -1342117463
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_120: 1452133161
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_121: 526942145
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_122: 944053859
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_123: 1555678264
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_124: 354824337
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_125: 1732361740
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_126: 2125606603
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_127: 141045293
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_128: 303861820
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_129: -1802539093
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_13: 485416766
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_130: 1236152938
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_131: -1225073024
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_132: -1849545492
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_133: -1898356763
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_134: 808657019
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_135: 1532329498
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_136: -1097478531
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_137: -767304313
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_138: 1817266262
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_139: -1635945550
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_14: 1442884965
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_140: -1978194063
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_141: -1049278019
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_142: -902770167
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_143: 1629087268
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_144: 376512380
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_145: 1256168976
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_146: -1767882662
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_147: -875459596
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_148: -1109990970
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_149: 1963617037
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_15: -1319476957
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_150: -1706807918
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_151: -2146197003
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_152: 790353092
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_153: 1929170459
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_154: -1756622716
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_155: -1760511842
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_156: 1908253983
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_157: 735085982
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_158: 975967579
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_159: -694628265
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_16: 1442859916
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_160: 1938963018
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_161: -1717331935
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_162: -1890605086
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_163: -316392972
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_164: -2093418308
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_17: -1308062780
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_18: -2052887765
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_19: 1971780924
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_2: 780460985
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_20: -1964912260
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_21: -1243171041
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_22: -147549585
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_23: 942775427
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_24: 15332536
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_25: -1086355146
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_26: 1126027595
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_27: 663612229
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_28: -1710543548
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_29: -1063510921
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_3: 2143795906
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_30: -155394518
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_31: 799622379
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_32: -1114933359
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_33: 1379308134
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_34: -238951934
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_35: -209556664
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_36: 722030705
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_37: -2013177094
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_38: 1203229940
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_39: 2035909490
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_4: 1094746528
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_40: -894936238
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_41: -53308503
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_42: -884036459
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_43: -1970841007
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_44: -1090357403
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_45: -314846503
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_46: 1798786877
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_47: 792155248
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_48: -621084093
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_49: -482898524
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_5: 141814137
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_50: -221306467
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_51: -110143625
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_52: 1089925925
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_53: 1050643495
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_54: -1428658045
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_55: 2055209048
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_56: 1971225639
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_57: -74796103
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_58: -740482272
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_59: -571491100
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_6: -361998072
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_60: 1954736656
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_61: 77499758
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_62: 544543044
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_63: -1057068137
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_64: -875573753
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_65: 974069130
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_66: -2028809489
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_67: 1138952316
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_68: 1858290911
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_69: -581683471
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_7: 1979534809
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_70: -2018251814
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_71: -198680701
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_72: -948844819
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_73: -1628954862
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_74: -1424030122
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_75: 935810089
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_76: -1245527337
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_77: -2037028308
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_78: -1960090049
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_79: 705748953
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_8: 1108498359
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_80: -1169137058
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_81: -701872180
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_82: 262956033
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_83: -829220473
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_84: 617203031
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_85: 1808771081
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_86: -1607023552
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_87: 1047565163
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_88: -693014010
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_89: 238104557
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_9: -193425863
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_90: 1079582465
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_91: -1561908652
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_92: 1262325798
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_93: -516305829
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_94: -529643868
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_95: 1762324765
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_96: -860038972
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_97: -1381455682
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_98: 1896430415
+      DS _ DSi - Harvest Moon DS - Non-Playable Characters - Wild Animals_99: -900683105
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
