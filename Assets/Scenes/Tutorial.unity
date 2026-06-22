@@ -2584,13 +2584,13 @@ MonoBehaviour:
   spawnInterval: 15
   maxMonkeys: 5
   trustLossMultiplier: 2
-  stressMultiplier: 2
+  stressMultiplier: 1
   lowStressThreshold: 30
-  lowStressHelpPointsMultiplier: 3
-  lowStressTrustPointsMultiplier: 3
+  lowStressHelpPointsMultiplier: 4
+  lowStressTrustPointsMultiplier: 4
   lowStressTreatmentsChance: 0.7
   stressRateOnSilence: 3
-  stressRateOnNormal: -6
+  stressRateOnNormal: -10
   stressRateOnNervous: 8
   stressRateOnPanic: 10
 --- !u!4 &432542806
@@ -5079,7 +5079,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visualRenderer: {fileID: 811403011}
   portalCollider: {fileID: 811403010}
-  helpPointsRequired: 0
+  helpPointsRequired: 100
   nextSceneName: Level1
   interactPrompt: {fileID: 1610081329}
 --- !u!58 &811403010
@@ -12447,8 +12447,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -203519773
-  m_SortingLayer: 5
+  m_SortingLayerID: 938434287
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 2, y: 4.5, z: 0}

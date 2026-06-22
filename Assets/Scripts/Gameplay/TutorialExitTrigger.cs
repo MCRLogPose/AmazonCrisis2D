@@ -91,6 +91,7 @@ public class TutorialExitTrigger : MonoBehaviour
     public void LoadNextLevel()
     {
         Debug.Log("[TutorialExit] Cargando el siguiente nivel: " + nextSceneName);
+        HealthManager.health = 3;
         SceneManager.LoadScene(nextSceneName);
     }
 

@@ -10196,7 +10196,7 @@ MonoBehaviour:
   nextSceneName: Menu
   levelIndex: 3
   isFinalLevel: 1
-  helpPointsRequired: 0
+  helpPointsRequired: 100
   interactPrompt: {fileID: 1961296601}
 --- !u!4 &782486658
 Transform:
@@ -11852,10 +11852,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthDecayMultiplier: 10
-  spawnInterval: 8
+  spawnInterval: 10
   maxMonkeys: 6
-  trustLossMultiplier: 10
-  stressMultiplier: 2
+  trustLossMultiplier: 4
+  stressMultiplier: 3
   lowStressThreshold: 30
   lowStressHelpPointsMultiplier: 1.5
   lowStressTrustPointsMultiplier: 1.5

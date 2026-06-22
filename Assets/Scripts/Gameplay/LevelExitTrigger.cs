@@ -89,6 +89,8 @@ public class LevelExitTrigger : MonoBehaviour
 
     public void ExitLevel()
     {
+        HealthManager.health = 3;
+
         if (isFinalLevel)
         {
             GameEndingManager ending = FindObjectOfType<GameEndingManager>();
